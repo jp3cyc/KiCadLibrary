@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# S9032-02
+#
+DEF S9032-02 U 0 40 Y Y 1 F N
+F0 "U" 50 -250 60 H V C CNN
+F1 "S9032-02" 0 250 60 H V C CNN
+F2 "" -550 250 60 H I C CNN
+F3 "" -550 250 60 H I C CNN
+DRAW
+S -550 200 550 -200 0 1 0 N
+X Anode(red) 1 -650 100 100 R 50 50 1 1 I
+X Cathode_com 2 -650 0 100 R 50 50 1 1 P
+X Anode(green) 3 -650 -100 100 R 50 50 1 1 I
+X NC 4 650 -100 100 L 50 50 1 1 N
+X Cathode_com 5 650 0 100 L 50 50 1 1 P
+X Anode(blue) 6 650 100 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
